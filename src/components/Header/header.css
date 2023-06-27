@@ -68,7 +68,7 @@ header {
   
     background-color: transparent;
     /*background-image: url("./img/menu.png");*/
-    background-image: url("./menu.png");
+    background-image: url("/src/components/Header/menu.png");
     background-size: contain;
   
     cursor: pointer;
@@ -95,7 +95,7 @@ header {
     }
   
     .nav-btn {
-      display: none;
+     display: grid;
     }
   
     .nav-btn:focus {

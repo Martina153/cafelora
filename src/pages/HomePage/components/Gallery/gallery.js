@@ -1,7 +1,7 @@
 export const Gallery = () => {
-    const galleryElm = document.createElement('section');
-    galleryElm.classList.add('gallery');
-    galleryElm.innerHTML = `<div class="container">
+    const galleryElm = document.createElement('section')
+    galleryElm.classList.add('gallery')
+    galleryElm.innerHTML = `<div class="container" id="gallery">
     <div class="gallery__content">
       <h2>Nově otevřeno!</h2>
       <div class="gallery__cols">

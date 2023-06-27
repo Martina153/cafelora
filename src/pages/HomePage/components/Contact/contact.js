@@ -1,6 +1,9 @@
+
+import mapImg from "./img/map.png"
+
 export const Contact = () => {
-    const contactElm = document.createElement('section');
-    contactElm.innerHTML = `<section>
+    const contactElm = document.createElement('section')
+    contactElm.innerHTML = `<section id="contact">
     <div class="container">
       <h2>Kde nás najdete</h2>
       <div class="contact">
@@ -19,7 +22,7 @@ export const Contact = () => {
         </table>
         <img
           class="contact__map"
-          src="./map.png"
+          src="${mapImg}"
         />
       </div>
     </div>
